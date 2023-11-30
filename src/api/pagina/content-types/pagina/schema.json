@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "singularName": "pagina",
+    "pluralName": "paginas",
+    "displayName": "Páginas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Secciones": {
+      "type": "dynamiczone",
+      "components": [
+        "secciones.galeria-de-imagenes",
+        "secciones.certificaciones",
+        "secciones.clientes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_secciones_certificaciones",
+  "info": {
+    "displayName": "Certificaciones",
+    "icon": "thumbUp"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Subtitulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_secciones_clientes",
+  "info": {
+    "displayName": "Clientes",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    }
+  }
+}
